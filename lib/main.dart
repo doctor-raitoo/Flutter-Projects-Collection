@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+// import file first_program.dart
+import 'first_program.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -12,7 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'My First App',
-      home: const MainPage(),
+      // akses ke file first_program.dart
+      home: const FirstProgram(),
     );
   }
 }
